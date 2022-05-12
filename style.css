@@ -65,7 +65,7 @@ body {
 }
 
 .header_title {
-    font-size: 20px;
+    font-size: 24px;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
@@ -78,6 +78,19 @@ body {
 .title:hover {
 	font-size: 44px;
 	text-decoration: none;
+}
+
+.links {
+	display: block;
+    position: relative;
+    width: 100%;
+	margin: auto;
+	padding: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+    text-align: center;
+    line-height: 2em;
+    font-size: 16px;
 }
 
 a {	
