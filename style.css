@@ -1,0 +1,108 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Courier New';
+	color: white;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+}
+
+body::-webkit-scrollbar { 
+	display: none;  /* Chrome Safari */
+}
+
+body {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;  /* IE 10+ */
+	margin: 0 auto;
+	font-family: "Courier New";
+	background-color: black;
+}
+
+.text_section {
+    display: block;
+    position: relative;
+    width: 80%;
+	margin: 0px;
+	padding: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+    text-align: left;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+.thesis_title {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	padding: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.header_link {
+	font-size: 22px;
+	height: 30px;
+	
+
+}
+
+.header_link:hover {
+    font-size: 22px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.header_title {
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.title {
+    font-size: 40px;
+    text-decoration: none;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.title:hover {
+	font-size: 44px;
+	text-decoration: none;
+}
+
+a {	
+	text-decoration: underline;
+}
+
+a:hover {	
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+.image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	text-align: center;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.footer_image {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	text-align: center;
+}
